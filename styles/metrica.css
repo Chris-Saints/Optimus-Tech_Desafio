@@ -1,0 +1,32 @@
+.metrica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metrica__coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 6em;
+    margin-left: 7em;
+    gap: 0.75em 0.5em;
+}
+
+.metrica__numeros {
+    font-size: 60px;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.metrica__titulo {
+    color: var(--cor-cinza-escuro);
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.metrica__texto {
+    width: 17.5em;
+    line-height: 1.5;
+}

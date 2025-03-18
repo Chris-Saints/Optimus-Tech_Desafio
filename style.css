@@ -1,0 +1,27 @@
+@import url(reset.css);
+@import url(./styles/navbar.css);
+@import url(./styles/cabecalho.css);
+@import url(./styles/metrica.css);
+@import url(./styles/vagas.css);
+@import url(./styles/depoimentos.css);
+@import url(./styles/rodape.css);
+
+:root {
+    --cor-branco: #FFFFFF;
+    --cor-preto: #000000;
+    --cor-fonte-cinza: #667085;
+    --cor-secundaria: #8E2424;
+    --cor-optimus: #3A404E;
+    --cor-cinza-escuro: #101828;
+    --cor-borda: #EAECF0;
+    --cor-rodape: #F9FAFB;
+    --cor-fonte-cinza-claro: #98A2B3;
+}
+
+body {
+    background-color: var(--cor-branco);
+    font-family: "Inter", sans-serif;
+    color: var(--cor-fonte-cinza);
+    font-weight: 400;
+    font-size: 16px;
+}

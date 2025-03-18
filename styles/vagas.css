@@ -1,0 +1,75 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vagas__abertas {
+    margin: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em 1.6em;
+}
+
+.vagas__frase {
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.5em;
+    background-color: rgb(142, 36, 36, 0.1);
+    border-radius: 1em;
+    
+}
+
+.vagas__titulo {
+    color: var(--cor-cinza-escuro);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.vagas__texto {
+    font-size: 20px;
+}
+
+.imagem__reuniao {
+    margin-bottom: 4em;
+}
+
+.vagas__descricao {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2.5em 0;
+    width: 48em;
+    
+}
+
+.area-profissional {
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+.container__profissao {
+    margin: 0 0 1.5em 0;
+    border: 1px solid var(--cor-borda);
+    border-radius: 1em;
+    padding: 1.5em 1.5em 1.7em 1.5em;
+
+}
+
+.nome__profissao {
+    color: var(--cor-cinza-escuro);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+.container__descricao-vaga {
+    display: flex;
+}
+
+.vagas__descricao-profissao {
+    margin-right: 1em;
+}
